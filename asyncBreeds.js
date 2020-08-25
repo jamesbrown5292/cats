@@ -12,5 +12,4 @@ const breedDetailsFromFile = function(breed, callback) {
 const callback = breed => {
   console.log("Return value: ", breed);
 };
-// we try to get the return value
-const bombay = breedDetailsFromFile('Bombay', callback);
+module.exports = breedDetailsFromFile;
